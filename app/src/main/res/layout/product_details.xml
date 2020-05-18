@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearID">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeID"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titleTVdetails"
+                    android:text="Product Details"
+                    android:textSize="24sp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name"
+                    android:layout_below="@+id/titleTVdetails"
+                    android:id="@+id/productTitle"
+                    android:textStyle="italic">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/productTitle"
+                    android:id="@+id/nameETdetails"
+                    android:textSize="18sp"
+                    android:padding="10dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Quantity"
+                    android:layout_below="@+id/nameETdetails"
+                    android:id="@+id/productQuan"
+                    android:textStyle="italic">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_below="@+id/productQuan"
+                    android:id="@+id/quantityETdetails"
+
+                    android:padding="10dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Size"
+                    android:layout_below="@+id/quantityETdetails"
+                    android:id="@+id/productSize"
+                    android:textStyle="italic">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/productSize"
+                    android:id="@+id/sizeETdetails"
+
+                    android:padding="10dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description"
+                    android:layout_below="@+id/sizeETdetails"
+                    android:id="@+id/productDesc"
+                    android:textStyle="italic">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/productDesc"
+                    android:id="@+id/descriptionETdetails"
+
+                    android:padding="10dp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
